@@ -1,0 +1,143 @@
+body {
+  background-color: #E5E5CB;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.top-container {
+  background-color: #3C2A21;
+  position: relative;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #E5E5CB;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #1A120B;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal
+}
+
+h3 {
+  color: #1A120B;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.prog {
+  color: #E5E5CB;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profile-picture {
+  background-color: #E5E5CB;
+  width: 300px;
+  height: 300px;
+}
+
+.gym {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.footer-link {
+  color: #1A120B;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+  line-height: 2
+}
+
+hr {
+  border-style: dotted;
+  border-width: 7px;
+  border-bottom: none;
+  width: 4%;
+  color: #3C2A21;
+}
+
+.bottom-container {
+  background-color: #3C2A21;
+  position: relative;
+  padding: 50px;
+}
+
+.ender {
+  color: #E5E5CB;
+}
+
+.footer-link {
+  color: #E5E5CB;
+  line-height: 2;
+  text-decoration: none;
+  padding: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.me {
+  width: 30%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+}
+
+.contact-me {
+  line-height: 2;
+  padding-bottom: 5%;
+}
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 0px 0px 0px #D5CEA3;
+  font-family: Georgia;
+  color: #D5CEA3;
+  font-size: 18px;
+  background: #3C2A21;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.h3-last {
+  position: relative;
+  bottom: 20px;
+}
